@@ -28,7 +28,14 @@
     height: var(--search-height);
     padding-left: 16px;
     display: flex;
-@@ -37,26 +41,33 @@
+    background-color: rgba(22, 24, 35, 0.06);
+    border-radius: var(--search-border-radius);
+    border: 1.5px solid transparent;
+    input {
+        flex: 1;
+        height: 100%;
+        color: var(--black);
+        font-size: 1.6rem;
         caret-color: var(--primary);
         background-color: transparent;
     }
